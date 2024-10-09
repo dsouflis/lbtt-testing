@@ -1,0 +1,25 @@
+{
+  "name": "lbtt-testing",
+  "version": "1.0.0",
+  "description": "Utilities to use Linear Temporal Logic to verify properties of systems",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "testing",
+    "lbtt",
+    "buechi",
+    "automata"
+  ],
+  "author": "Dimitrios Souflis (dsouflis@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "ohm-js": "^17.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.4.0",
+    "chai": "^5.1.1"
+  }
+}
